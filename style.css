@@ -1,0 +1,78 @@
+@import "https://sethburkart123.github.io/sf-pro-fonts/fonts.css"; /* https://github.com/SethBurkart123/sf-pro-fonts */
+
+body {
+    background-color: #07070C;
+    overflow: hidden;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'SF Pro Display';
+    font-weight: 350;
+    font-size: 36pt;
+    color: #FFFFFF;
+    margin-top: 1%;
+}
+
+p {
+    font-family: 'SF Pro Display';
+    font-weight: 500;
+    font-size: 20pt;
+    color: #FFFFFF;
+}
+
+#darkmode {
+    width: 90px;
+    height: 50px;
+    transform: translate(-600px, 750px);
+    text-align: center;
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+.catascii {
+    width: 500px;
+    height: 500px;
+    user-select: none;
+    transform: translate(770px, 415px)
+}
+
+.dropdown {
+    font-family: 'SF Pro Display';
+    font-weight: 400;
+    font-size: 16pt;
+    height: 50px;
+    text-align: center;
+    transform: translateY(-20px);
+}
+
+.rounded {
+    border-radius: 25px;
+}
+
+.dropshadow {
+    filter: drop-shadow(2px 2px 3px grey);
+}
+
+.platformSelect {
+    margin-left: 2.5%;
+    float: left;
+}
+
+.formatSelect {
+    margin-left: 5%;
+    float: left;
+}
+
+.title {
+    text-align: center;
+    animation: titleRotate 7s infinite;
+    rotate: z -1deg;
+}
+
+@keyframes titleRotate {
+    50% {
+        rotate: z 1deg;
+    }
+}
